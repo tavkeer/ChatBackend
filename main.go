@@ -62,7 +62,6 @@ func (s *Server) Broadcast(b []byte) {
 }
 
 func main() {
-	//start server
 	server := NewServer()
 	http.Handle("/ws", websocket.Handler(server.handleWS))
 	http.Handle("/feed", websocket.Handler(server.handleWSOrderbook))
