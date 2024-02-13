@@ -1,1 +1,1 @@
-Basic Socket app using golang
+Basic Socket app using Golang
